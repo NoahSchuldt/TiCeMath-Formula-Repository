@@ -22,7 +22,7 @@ rZ = float(input('Gib den Radius des Zylinders ein: '))
 h= float(input('Gib die Höhe des Zylinder an: '))
 print('Der Zylinder hat ein Volumen von: ', zylinder_volumen(rZ, h))
 
-def Weg(speed: float, time: float)
+def Weg(speed: float, time: float):
     return speed * time
 speed = float(input('Die Geschwindigkeit ist: '))
 time = float(input('Wie lange dauerte es: '))
