@@ -8,10 +8,9 @@ b = float(input("Gib b ein: "))
 print("Hypotenuse c:", pythagoras(a, b))
 
 def flaeche_kreis(r)
-    try return math.pi * r**2
-except print('Fehler: 1')
+    return math.pi * r**2
 
-r = float(input('Gib den Radius des Kreises ein: ')
+r = float(input('Gib den Radius des Kreises ein: '))
 print('Der Flächeninhalt des Kreises ist:' flaeche_kreis(r))
 
 
