@@ -16,8 +16,8 @@ print('Der Flächeninhalt des Kreises ist:', flaeche_kreis(r))
 def umfang_kreis(rU):
     return 2 + math.pi * rU
 
-rU = float(input('Gib den Radius ein: ')
-print('Der Umfang ist: ', rU)
+rU = float(input('Gib den Radius ein: '))
+print('Der Umfang ist: ', umfang_kreis(rU))
 
 
 input()
