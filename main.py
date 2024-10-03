@@ -7,3 +7,4 @@ def pythagoras(a, b):
 a = float(input("Gib a ein: "))
 b = float(input("Gib b ein: "))
 print("Hypotenuse c:", pythagoras(a, b))
+input('Drücke Enter zum Beenden')
