@@ -5,3 +5,4 @@ def pythagoras(a,b):
 a=float(input('Gib a ein: '))
 b=float(input('Gib b ein: '))
 print('Hypotenuse C: 'pythagoras(a,b))
+while True:
