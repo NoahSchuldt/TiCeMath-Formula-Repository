@@ -22,7 +22,7 @@ def zylinder_volumen():
 
 
 def Weg():
-    search = str(input("Fehlende Variable\n(Zeit/Weg/Geschwindigkeit)"))
+    search = str(input("Was möchtest du berechnen?\nZeit, Weg oder Geschwindigkeit)"))
     if search=="Weg":
         speed = float(input('Die Geschwindigkeit ist(m/s): '))
         time = float(input('Wie lange dauerte es(s): '))
