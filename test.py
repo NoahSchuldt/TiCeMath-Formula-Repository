@@ -1,5 +1,35 @@
 import math
+def geometrische_Gleichungen():
+    print("geometrische Gleichnungen")
 
+def logarythmen():
+    print("logarythmen")
+
+def warscheinlichkeiten_funktionen():
+    print("warscheinlichkeiten und funktionen")
+
+def Main_Menü():
+    while True:
+        print("\nMain_Menü:")
+        print("1. geometrische_Gleichungen 1")
+        print("2. logarythmen 2")
+        print("3. warscheinlichkeiten_funktionen 3")
+        print("4. Verlassen 4")
+        auswahl = input("Bitte Option wählen: ")
+        if auswahl == '1'
+        (geometrische_Gleichungen)
+        if auswahl == '2'
+        (logarythmen)
+        if auswahl == '3'
+        (warscheinlichkeiten_funktionen)
+        if auswahl == '4'
+        break
+else:
+print("ungültige auswahl")
+
+if __name__ == "__main__":
+    obermenü()
+        
 def pythagoras():
     a = float(input("Gib a ein(cm): "))
     b = float(input("Gib b ein(cm): "))
