@@ -37,7 +37,7 @@ elif auswahl == '4':
 else:
     print:("ungültige auswahl")
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     obermenü()
 
 def pythagoras():
