@@ -41,7 +41,6 @@ def kegel_oberfläche:
     sK = float(input('Gib die Seitenlänge des Kegels an: '))
     return rK * math.pi * (rK * sK)
 
-
 #Gibt die Optionen weiter an den User
 print ("[1]Hypotenuse\n[2]Kreisfläche\n[3]Kreisumfang\n[4]Zylindervolumen\n[5]Distanzumrechnungen")
 
@@ -56,3 +55,5 @@ elif answer==4:
     print('Der Zylinder hat ein Volumen von(cm³): ', zylinder_volumen())
 elif answer==5:
     Weg()
+elif answer==6:
+    print('Die Oberfläche des Kegels ist: ', kegel_oberfläche())
