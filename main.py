@@ -42,7 +42,7 @@ def kegel_oberfläche():
     return rK * math.pi * (rK * sK)
 
 #Gibt die Optionen weiter an den User
-print ("[1]Hypotenuse\n[2]Kreisfläche\n[3]Kreisumfang\n[4]Zylindervolumen\n[5]Distanzumrechnungen")
+print ("[1]Hypotenuse\n[2]Kreisfläche\n[3]Kreisumfang\n[4]Zylindervolumen\n[5]Distanzumrechnungen\n[6]Kegeloberfläche")
 
 answer = int(input("Welche Option?\n"))
 if answer==1:
