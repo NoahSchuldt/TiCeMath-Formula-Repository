@@ -36,7 +36,10 @@ def Weg():
         distance=float(input('Der Weg ist(m):'))
         print('Die Geschwindigkeit ist(m/s): ',distance/time)
 
-
+def kegel_oberfläche:
+    rK = float(input('Gib den Radius der Grundfläche des Kegels an: '))
+    sK = float(input('Gib die Seitenlänge des Kegels an: '))
+    return rK * math.pi * (rK * sK)
 
 
 #Gibt die Optionen weiter an den User
