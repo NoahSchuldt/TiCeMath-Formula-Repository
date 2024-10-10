@@ -1,5 +1,9 @@
 import math
-
+#das ist eine Tesfunktion die ich daheimweitermache nicht editen!
+def gleichungskürzer():
+    gleichung=input("Gib die Gleichung f(x) ein")
+    gleichungskomponenten=[gleichung]
+    print (gleichung)
 def therme_und_gleichungen():
     print("therme_und_gleichungen")
 
