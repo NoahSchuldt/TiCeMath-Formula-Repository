@@ -63,7 +63,14 @@ def zylinder_volumen():
     h= float(input('Gib die Höhe des Zylinder an(cm): '))
     return math.pi * (rZ * rZ) * h
 
+#gerader Kreiskegel ab hier! Hier arbeitet annabelle bitte nicht verändern Danke 
+def gerader_kreiskegel():
+    r² = float(input("Gib den Radius des Kreises ein(cm): "))
+    h = float(input("Gib die Höhe des Kreises an(cm): "))
+    return 1, 3 * r² + math.pi * h
 
+def 
+#ende Kreisjegel
 
 def Weg():
     search = str(input("Was möchtest du berechnen?\nZeit, Weg oder Geschwindigkeit)"))
