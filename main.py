@@ -57,5 +57,5 @@ elif answer==5:
     Weg()
 elif answer==6:
     print('Die Oberfläche des Kegels ist: ', kegel_oberfläche())
-elif answer==0
+elif answer==0:
     QUIT
