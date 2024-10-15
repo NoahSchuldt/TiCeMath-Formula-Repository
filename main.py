@@ -41,12 +41,11 @@ def kegel_oberfläche():
     sK = float(input('Gib die Seitenlänge des Kegels an: '))
     return rK * math.pi * (rK * sK)
 
-overmenu = int(input([1]\n[2]\n))
 if overmenu==1:
     print ("[1]Hypotenuse\n[2]Kreisfläche\n[3]Kreisumfang\n[4]Zylindervolumen\n[5]Distanzumrechnungen\n[6]Kegeloberfläche\n[0]Programm beeenden")
 
-answer = int(input("Welche Option?\n"))
-if answer==1:
+    answer = int(input("Welche Option?\n"))
+    if answer==1:
         print("Hypotenuse c(cm):", pythagoras())
     elif answer==2:
         print('Der Flächeninhalt des Kreises ist(cm²):', flaeche_kreis())
@@ -60,3 +59,5 @@ if answer==1:
         print('Die Oberfläche des Kegels ist: ', kegel_oberfläche())
     elif answer==0:
         print()
+elif overmenu==2:
+    print()
