@@ -33,7 +33,24 @@ elif auswahl == '2':
     funktionen()
 
 elif auswahl == '3':
-    geometrie(        
+    geometrie()
+    
+
+elif auswahl == '4':
+    wahrscheinlichkeiten()
+
+else:
+    print:("ungültige auswahl")
+
+if __name__ == "__main__":
+    obermenü()
+
+def pythagoras():
+    a = float(input("Gib a ein(cm): "))
+    b = float(input("Gib b ein(cm): "))
+    return math.sqrt(a**2 + b**2)   
+
+
 def volumen_gerader_kreiskegel():       
     r = float(input("Gib den Radius des Kreises ein(cm): "))
     h = float(input("Gib die Höhe des Kreises an(cm): "))
@@ -60,24 +77,6 @@ def zylinder_volumen():
     rZ = float(input('Gib den Radius des Zylinders ein(cm): '))
     h= float(input('Gib die Höhe des Zylinder an(cm): '))
     return math.pi * (rZ * rZ) * h
-    )
-
-elif auswahl == '4':
-    wahrscheinlichkeiten()
-
-else:
-    print:("ungültige auswahl")
-
-if __name__ == "__main__":
-    obermenü()
-
-def pythagoras():
-    a = float(input("Gib a ein(cm): "))
-    b = float(input("Gib b ein(cm): "))
-    return math.sqrt(a**2 + b**2)   
-
-
-
 
 
 
