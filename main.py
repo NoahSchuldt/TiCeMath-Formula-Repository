@@ -58,4 +58,4 @@ elif answer==5:
 elif answer==6:
     print('Die Oberfläche des Kegels ist: ', kegel_oberfläche())
 elif answer==0:
-    QUIT
+    print()
