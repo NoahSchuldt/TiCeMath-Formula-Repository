@@ -78,9 +78,13 @@ def zylinder_volumen():
     h= float(input('Gib die Höhe des Zylinder an(cm): '))
     return math.pi * (rZ * rZ) * h
 
+def kugel_volumen():
+    r = float(input("Gib den Radius der Kugel an(cm): "))
+    return 3, 4 * r**3 * math.pi
 
-
-
+def kugel_oberflaeche():
+    r = float(input("Gib den Radius der Kugel an(cm): "))
+    return 4 * r**2 * math.pi
 
 
 def Weg():
