@@ -64,13 +64,25 @@ def zylinder_volumen():
     return math.pi * (rZ * rZ) * h
 
 #gerader Kreiskegel ab hier! Hier arbeitet annabelle bitte nicht verändern Danke 
-def gerader_kreiskegel():
-    r² = float(input("Gib den Radius des Kreises ein(cm): "))
+def volumen_gerader_kreiskegel():
+    r = float(input("Gib den Radius des Kreises ein(cm): "))
     h = float(input("Gib die Höhe des Kreises an(cm): "))
-    return 1, 3 * r² + math.pi * h
+    return 1, 3 * r**2 + math.pi * h
 
-def 
-#ende Kreisjegel
+def mantel_gerader_kreiskegel():
+    r = float(input("Gib den Radius des Kreiskegels ein(cm): "))
+    s = float(input("Gib die Seitenlänge des Kreiskegels ein(cm): "))
+    return r * math.pi * s
+
+def oberflaeche_gerader_kreiskegel():
+    r = float(input("Gib den Radius des Kreises ein(cm): "))
+    s = float(input("Gib die Seitenlänge des Kreiskegels ein(cm): "))
+    return r * math.pi * (r+s)
+
+#Mantelpunktswinkel der Mantelfläche
+
+
+#ende Kreiskegel
 
 def Weg():
     search = str(input("Was möchtest du berechnen?\nZeit, Weg oder Geschwindigkeit)"))
