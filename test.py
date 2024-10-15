@@ -4,6 +4,7 @@ def gleichungskürzer():
     gleichung=input("Gib die Gleichung f(x) ein")
     gleichungskomponenten=[gleichung]
     print (gleichung)
+    
 def therme_und_gleichungen():
     print("therme_und_gleichungen")
 
@@ -39,7 +40,7 @@ elif auswahl == '4':
     wahrscheinlichkeiten()
 
 else:
-    print:("ungültige auswahl")
+    print("ungültige auswahl")
 
 if __name__ == "__main__":
     obermenü()
