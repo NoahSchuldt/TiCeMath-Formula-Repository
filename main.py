@@ -42,7 +42,7 @@ def kegel_oberfläche():
     return rK * math.pi * (rK * sK)
 
 #Gibt die Optionen weiter an den User
-print ("[1]Hypotenuse\n[2]Kreisfläche\n[3]Kreisumfang\n[4]Zylindervolumen\n[5]Distanzumrechnungen\n[6]Kegeloberfläche")
+print ("[1]Hypotenuse\n[2]Kreisfläche\n[3]Kreisumfang\n[4]Zylindervolumen\n[5]Distanzumrechnungen\n[6]Kegeloberfläche\n[0]Programm beeenden")
 
 answer = int(input("Welche Option?\n"))
 if answer==1:
@@ -57,3 +57,5 @@ elif answer==5:
     Weg()
 elif answer==6:
     print('Die Oberfläche des Kegels ist: ', kegel_oberfläche())
+elif answer==0
+    QUIT
