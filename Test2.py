@@ -17,23 +17,50 @@ def wahrscheinlichkeiten():
     print("wahrscheinlichkeiten")
 
 def obermenü():
-    while True:
+   
         print("\nObermenü:")
         print("1. therme_und_gleichungen 1")
         print("2. fuktionen 2")
         print("3. geometrie 3")
         print("4. wahrscheinlichkeiten 4")
-
+    
 auswahl = input("Bitte wählen")
 
 if auswahl == '1':
-    therme_und_gleichungen()
+    terme_und_gleichungen()
 
 elif auswahl == '2':
     funktionen()
 
 elif auswahl == '3':
-    geometrie()
+    geometrie(
+        def volumen_gerader_kreiskegel():
+    r = float(input("Gib den Radius des Kreises ein(cm): "))
+    h = float(input("Gib die Höhe des Kreises an(cm): "))
+    return 1, 3 * r**2 + math.pi * h
+
+def mantel_gerader_kreiskegel():
+    r = float(input("Gib den Radius des Kreiskegels ein(cm): "))
+    s = float(input("Gib die Seitenlänge des Kreiskegels ein(cm): "))
+    return r * math.pi * s
+
+def oberflaeche_gerader_kreiskegel():
+    r = float(input("Gib den Radius des Kreises ein(cm): "))
+    s = float(input("Gib die Seitenlänge des Kreiskegels ein(cm): "))
+    return r * math.pi * (r+s)
+
+def flaeche_kreis():
+    r = float(input('Gib den Radius des Kreises ein(cm): '))
+    return math.pi * r**2
+def umfang_kreis():
+    kU = float(input('Gib den Radius ein(cm): '))
+    return 2 + math.pi * kU
+
+def zylinder_volumen():
+    rZ = float(input('Gib den Radius des Zylinders ein(cm): '))
+    h= float(input('Gib die Höhe des Zylinder an(cm): '))
+    return math.pi * (rZ * rZ) * h
+    )
 
 elif auswahl == '4':
     wahrscheinlichkeiten()
@@ -49,40 +76,13 @@ def pythagoras():
     b = float(input("Gib b ein(cm): "))
     return math.sqrt(a**2 + b**2)   
 
-def flaeche_kreis():
-    r = float(input('Gib den Radius des Kreises ein(cm): '))
-    return math.pi * r**2
-def umfang_kreis():
-    kU = float(input('Gib den Radius ein(cm): '))
-    return 2 + math.pi * kU
 
 
 
-def zylinder_volumen():
-    rZ = float(input('Gib den Radius des Zylinders ein(cm): '))
-    h= float(input('Gib die Höhe des Zylinder an(cm): '))
-    return math.pi * (rZ * rZ) * h
-
-#gerader Kreiskegel ab hier! Hier arbeitet annabelle bitte nicht verändern Danke 
-def volumen_gerader_kreiskegel():
-    r = float(input("Gib den Radius des Kreises ein(cm): "))
-    h = float(input("Gib die Höhe des Kreises an(cm): "))
-    return 1, 3 * r**2 + math.pi * h
-
-def mantel_gerader_kreiskegel():
-    r = float(input("Gib den Radius des Kreiskegels ein(cm): "))
-    s = float(input("Gib die Seitenlänge des Kreiskegels ein(cm): "))
-    return r * math.pi * s
-
-def oberflaeche_gerader_kreiskegel():
-    r = float(input("Gib den Radius des Kreises ein(cm): "))
-    s = float(input("Gib die Seitenlänge des Kreiskegels ein(cm): "))
-    return r * math.pi * (r+s)
-
-#Mantelpunktswinkel der Mantelfläche
 
 
-#ende Kreiskegel
+
+
 
 def Weg():
     search = str(input("Was möchtest du berechnen?\nZeit, Weg oder Geschwindigkeit)"))
