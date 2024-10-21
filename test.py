@@ -2,8 +2,16 @@ import math
 #das ist eine Tesfunktion die ich daheimweitermache nicht editen!
 def gleichungskürzer():
     gleichung=input("Gib die Gleichung f(x) ein")
-    gleichungskomponenten=[gleichung]
-    print (gleichung)
+    Elemente=[]
+    Stack=[]
+    for symbol in gleichung:
+        if symbol == '1' or symbol == '2' or symbol == '3' or symbol == '4' or symbol == '5' or symbol == '6' or symbol == '7' or symbol == '8' or symbol == '9' or symbol == '0':
+            Stack.append(symbol)
+        else
+        #Weg um Liste zu int zu konvertieren einfügen
+        #Die Zahl aus Stack in Elemente pushen
+        Elemente.append(symbol)
+    print (Elemente)
     
 def therme_und_gleichungen():
     print("therme_und_gleichungen")
