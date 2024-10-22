@@ -7,12 +7,19 @@ def gleichungskürzer():
     for symbol in gleichung:
         if symbol == '1' or symbol == '2' or symbol == '3' or symbol == '4' or symbol == '5' or symbol == '6' or symbol == '7' or symbol == '8' or symbol == '9' or symbol == '0':
             Stack.append(symbol)
-        else
-        #Weg um Liste zu int zu konvertieren einfügen
-        #Die Zahl aus Stack in Elemente pushen
-        Elemente.append(symbol)
+            print(3)
+        else:
+            if Stack != []:
+                int_result = int(''.join(map(str, Stack)))
+                Elemente.append(int_result)
+                Stack = []
+            Elemente.append(symbol)
+    if Stack != []:
+        int_result = int(''.join(map(str, Stack)))
+        Elemente.append(int_result)
     print (Elemente)
-    
+
+
 def therme_und_gleichungen():
     print("therme_und_gleichungen")
 
