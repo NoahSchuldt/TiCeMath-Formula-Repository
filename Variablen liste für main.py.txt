@@ -1,2 +1,0 @@
-geomenu: das menü für die geometrischen gleichungen
-overmenu: generelles menü
