@@ -20,7 +20,7 @@ def obermenü():
    
         print("\nObermenü:")
         print("1. therme_und_gleichungen 1")
-        print("2. fuktionen 2")
+        print("2. funktionen 2")
         print("3. geometrie 3")
         print("4. wahrscheinlichkeiten 4")
     
