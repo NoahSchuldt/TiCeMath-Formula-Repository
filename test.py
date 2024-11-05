@@ -18,10 +18,28 @@ def gleichungskürzer():
         int_result = int(''.join(map(str, Stack)))
         Elemente.append(int_result)
     print (Elemente)
+    DivisionsZähler = 1
 
+    def Divisionskürzer(Term_List, Counter):
+        Nenner=False
+        Divisionspunkt = 0
+        for Suche in Term_List:
+            if Suche == "/":
+                break
+            else:
+                DivLocation += 1
+        InRechnung = True
+        Suchpunkt = DivisionsZähler
+        if Nenner == False:
+            KlammerLayer = 0
+            while InRechnung:
+                if Term_List(Suchpunkt) == ')'
+                    KlammerLayer += 1
+                    
 
-def therme_und_gleichungen():
-    print("therme_und_gleichungen")
+    
+    def therme_und_gleichungen():
+        print("therme_und_gleichungen")
 
 def funktionen():
     print("funktionen")
