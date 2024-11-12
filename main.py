@@ -40,7 +40,7 @@ def kegel_oberfläche():
     rK = float(input('Gib den Radius der Grundfläche des Kegels an: '))
     sK = float(input('Gib die Seitenlänge des Kegels an: '))
     return rK * math.pi * (rK * sK)
-overmenu=int(input('[1]\n[2]'))
+overmenu=int(input('[1]Mathematik\n[2]Physik'))
 if overmenu==1:
     print ("[1]Hypotenuse\n[2]Kreisfläche\n[3]Kreisumfang\n[4]Zylindervolumen\n[5]Distanzumrechnungen\n[6]Kegeloberfläche\n[0]Programm beeenden")
 
@@ -60,4 +60,5 @@ if overmenu==1:
     elif answer==0:
         print()
 elif overmenu==2:
-    print()
+    print('[1]Elektrischer Strom\n[0]Programm beenden')
+    phy = int(input('Welche Option'))
