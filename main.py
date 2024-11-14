@@ -61,4 +61,6 @@ if overmenu==1:
         print()
 elif overmenu==2:
     print('[1]Elektrischer Strom\n[0]Programm beenden')
-    phy = int(input('Welche Option'))
+    phy = int(input('Welche Option?'))
+    if phy==1:
+        print('[1]Widerstands-Berechnung\n[2]Stromleistungsberechnung\n[0]Programm beenden')
